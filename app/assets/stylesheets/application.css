@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+*{
+	font-family: sans-serif;
+
+	
+}
+h1 {
+
+	color: pink;
+}
+
+h2 {
+
+color: maroon;
+}
