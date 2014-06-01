@@ -1,4 +1,11 @@
+= link_to 'add product', new_product_path
 %div
 	%ul
 		- @products.each do |product|
-			%li= product.name
+			%li
+				= product.name
+				|
+				= product.price
+				|
+				= product.description
+				= link_to('edit product', edit_product_path(product))
